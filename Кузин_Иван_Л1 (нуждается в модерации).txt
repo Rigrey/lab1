@@ -1,0 +1,121 @@
+1
+#include <iostream>
+using namespace std;
+int main(){
+	int a = 7;
+	int b = 13;
+	int c = 49;
+	cout << a << " "<< b << " " << c;
+}
+2
+#include <iostream>
+using namespace std;
+int main(){
+	char sym;
+	int a = 7, int b = 13, int c = 49;
+	cin >> sym;
+	cout << a << sym << b << sym << c;
+}
+3
+#include <iostream>
+using namespace std;
+
+
+
+int main(){
+	srand(time(0));
+	cout << rand() << " " << rand() << " " << rand();
+}
+4
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+	setlocale(LC_ALL, "RU");
+	int a;
+	int x;
+	cout << "a=";
+	cin >> a;
+	cout << "x=";
+	cin >> x;
+	cout << 12 * pow(a, 2) + 7 * a - 12 << endl;
+	cout << 3 * pow(x, 3) + 4 * pow(x, 2) - 11 * x + 1;
+}
+5
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+	int m;
+	int v;
+	cin >> m;
+	cin >> v;
+	int p = m/v;
+	cout << p;
+	return 0;
+}
+6
+#include <iostream>
+using namespace std;
+int main(){
+
+    int a, b;
+    cin >> a >> b;
+    cout << -1 * b / a;
+    return 0;
+}
+7
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int x1, y1, x2, y2;
+    cin >> x1 >> y1 >> x2 >> y2;
+    cout << sqrt(pow((x2 - x1), 2) + pow((y2 - y1), 2));
+}
+8
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int s1,s2,h;
+    cin >> s1 >> s2 >> h;
+    cout << s1 + s2 + 2 * h;
+}
+9
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int a;
+    cin >> a;
+    cout << "Volume = " << pow(a, 3) << endl;
+    cout << "Square of side surface = " << 4*pow(a,2) << endl;
+}
+10
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int a;
+    cin >> a;
+    cout << "P = " << a * 4;
+}
+11
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    int r;
+    cin >> r;
+    cout << "D = " << r * 2;
+}
+12
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main(){
+    string nam;
+    cin >> nam;
+    cout << "Hello, "<< nam << "!My name is C++";
+}
